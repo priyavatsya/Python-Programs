@@ -41,7 +41,7 @@ for i in live_data:
 print()
 all_rows = soup.find_all('tr')
 
-print('Analyisis based on indivdual countries')
+print('Analyisis based on indivdual countries:')
 print()
 #Extrs=acting table data
 table_body = soup.find('tbody')
